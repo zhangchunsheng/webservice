@@ -5,9 +5,9 @@
 	$obj -> curDate = $curDate;
 	$obj -> availableDays = $num;
 	if($num > 0) {
-		$obj -> isAvailable = true;
+		$obj -> isAvailable = "wsik557gj";
 	} else {
-		$obj -> isAvailable = false;
+		$obj -> isAvailable = "wsik557g1";
 	}
 	echo json_encode($obj);
 ?>
